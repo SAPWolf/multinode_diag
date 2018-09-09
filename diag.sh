@@ -13,9 +13,9 @@ while true; do
                     then
                         node="$1";
                         shift;
-		    else
-			node="all"
-			shift;
+					else
+						node="all"
+						shift;
                     fi
             ;;
         --)
